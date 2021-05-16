@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.staticfile.org/jquery/1.8.3/jquery.min.js">
+</script>
+<script src="getHoliday.js"></script>
+<script src="getApitest.js"></script>
+<script src="getHotel.js"></script>
+<script src="getWeather.js"></script>
+
+
+<body>
+    <div class="header">
+    <font size="5.5">
+        <h1>ass2</h1>
+    </font>
+
+    </div>
+<!--    <div>-->
+<!--        Country<input type="text" value="" id="Country">-->
+<!--        <button type="button" onclick="showCountry()">按钮传值</button>-->
+<!--        <div id="holidaylist"></div>-->
+
+<!--    </div>-->
+    <div>
+        year(eg.2019, 2012)<input type="text" value="" id="year">
+        <br>
+        Country(code, eg. CN, US)<input type="text" value="" id="Countrycode">
+        <br>
+        <button type="button" onclick="getholiday()">get holiday list</button>
+
+    </div>
+
+
+
+    <div>
+        city(eg.Beijing, New York)<input type="text" value="" id="city">
+        <br>
+        <button type="button" onclick="getHotels()">get hotel list</button>
+
+    </div>
+    <div>
+        <br>
+        <button type="button" onclick="getweather()">get weather</button>
+
+    </div>
+    <pre id="holidaylist">
+
+    </pre>
+    <pre id="hotellist">
+
+    </pre>
+    <pre id="weatherlist">
+
+    </pre>
+</body>
+</html>
